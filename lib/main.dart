@@ -149,7 +149,7 @@ Widget buildTextField(String label, String prefix,
       fontSize: 25.0,
     ),
     onChanged: changed,
-    keyboardType: TextInputType.number,
+    keyboardType: TextInputType.numberWithOptions(decimal: true),
   );
 }
 
